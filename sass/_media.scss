@@ -1,0 +1,88 @@
+@media (max-width: 1207px) {
+    header {
+      .bottom-nav {
+        .bottom-container{
+          justify-content: space-between;
+  
+          ul {
+            display: none;
+          }
+          .menu {
+            display: block;
+          }
+        }
+      }
+    }
+    .cards {
+        .cards-container {
+          flex-direction: column;
+          .card-item {
+            width: 90%;
+          }
+        }
+      }
+   }
+
+
+@media (max-width: 810px){
+    header{
+        .about{
+            display: none;
+        }
+        .about-1{
+            display: block;
+            margin-left: 100px;
+            margin-top: 50px;
+            h2{
+                color: #fff;
+                font-size: 30px;  
+            }
+            .homa-1{
+                display: flex;
+                .first-h1{
+                    font-size: 13px;
+                    color: #E63111;
+               }
+               .second-h1{
+                font-size: 13px;
+                color: #ffffff;
+               }
+            }
+        }
+    }
+}
+
+@media (max-width: 1268px){
+footer{
+   .top-nav{
+    height: 1000px;
+    .top-container{
+        flex-direction: column;
+        .box-f1{
+            width: 90%;
+        }
+        .box-f2{
+            width: 90%;
+        }
+        .box-f3{
+            width: 90%;
+            
+        }
+        
+    }
+
+   }
+   .bottom-nav{
+    height: 100px;
+    .bottom-container{
+        flex-direction: column;
+        .bottom-left{
+            width: 90%;
+        }
+        .bottom-right{
+            width: 90%;
+        }
+    }
+  }
+}
+}

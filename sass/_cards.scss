@@ -1,0 +1,87 @@
+.cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .cards-container{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .card-item{
+            margin-top: 20px;
+            width: 276px;
+            height: 365.2px;
+            background-image: url(../images/bg.webp);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          .card-item-inner{
+            width: 80%;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            img{
+                width: 100px;
+                border-radius: 50%;
+            }
+            h3{
+                color: #888888;
+            }
+            h5{
+                color: #888888;
+            }
+            p{
+              text-align: center;
+              color: #888888;
+            }
+            .icon{
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                i{
+                    color: gray;
+                    background-color: none;
+                    padding: 10px;
+                    border: 2px solid #888888 ;
+                    border-radius: 50%;
+                }
+
+            }
+          }
+          .card-plus {
+            width: 276px;
+            height: 365.2px;
+
+            background-color: rgba($color: #000000, $alpha: .5);
+            position: absolute;
+            display: none;
+            i {
+
+                color: red;
+                padding: 15px;
+                font-size: 30px;
+                background-color: #fff;
+                border-radius: 50%;
+                position: absolute;
+                margin-top: 60%;
+                margin-left: 40%;
+
+                
+            }
+        }
+
+        &:hover {
+            .card-plus {
+                display: block;
+            }
+        }
+        }
+    }
+    
+}
